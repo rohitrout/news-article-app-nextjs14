@@ -21,7 +21,7 @@ const LoginForm = () => {
          password,
           redirect:false,
       });
-      if(res.error){
+      if(!res || res.error){
         setError("Invalid credentails")
         return;
       }

@@ -1,6 +1,6 @@
 import LoginForm from "@/components/LoginForm"
+import { authOptions } from "@/lib/authOptions"
 import { getServerSession } from "next-auth"
-import { authOptions } from "../api/auth/[...nextauth]/route"
 import { redirect } from "next/navigation"
 
 const Login = async () => {
