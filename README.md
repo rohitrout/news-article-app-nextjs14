@@ -35,7 +35,6 @@ TypeScript
 First clone the repository and then do 
 ```bash
 1. npm install
-```bash
 2. npm run dev
 ```
 
