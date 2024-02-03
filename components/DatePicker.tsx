@@ -11,7 +11,6 @@ const DatePicker = ({ route, placeholder, otherClasses }: CustomInputProps) => {
   const query = searchParams.get("q");
   const [selectedDate, setSelectedDate] = useState("");
   useEffect(() => {
-    console.log("selectedDate",selectedDate)
     if (selectedDate) {
       const newUrl = formUrlQuery({
         params: searchParams.toString(),

@@ -3,7 +3,6 @@ import qs from "query-string";
 
 export const formUrlQuery = ({ params, key, value }: UrlQueryParams) => {
   const currentUrl = qs.parse(params); //base only
-  console.log(currentUrl)
   currentUrl[key] = value;
 
   return qs.stringifyUrl(

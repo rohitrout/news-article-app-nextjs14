@@ -2,6 +2,9 @@
 #### Intro
 This webApp is a content-driven platform built using Next.js, focused on delivering fast, SEO-friendly, and scalable solutions for managing articles. It includes features such as viewing, searching, and filtering articles fetched from the News API, along with user authentication.
 
+#### Live Demo URL:
+https://news-article-app-nextjs14.vercel.app/
+
 #### Features
 - Used Server Actions for API Call.
 - 

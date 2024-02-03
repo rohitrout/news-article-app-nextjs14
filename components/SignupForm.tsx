@@ -50,8 +50,6 @@ const SignupForm = () => {
         setError('');
         toast.success("Registered Succesfully!")
         router.push('/login')
-      }else{
-        console.log('User Registration failed')
       }
 
     }catch(error){

@@ -16,9 +16,6 @@ const page = async ({ searchParams }: SearchParamsProps) => {
 
   const pageNumber = searchParams?.page ? +searchParams?.page : 1;
 
-  // console.log("Articles", responsejson?.articles?.length)
-  // console.log("searchParams", searchParams)
-
   return (
     <>
     <section className="pt-36 bg-gray-200 ">

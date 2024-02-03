@@ -8,9 +8,7 @@ const ArticlePage = async ({ params }: { params: { id: string } }) => {
 
  const topic = Object.entries(currentUrl)[0][0]
 
- const articleContent = await getArticles({search: topic});
-//  console.log(articleContent)
-  
+ const articleContent = await getArticles({search: topic});  
 
  return (
   <div className="pt-36">
